@@ -1,0 +1,169 @@
+
+body {margin:8;
+	font-family: century gothic,verdana;
+	background-color:#000000;
+	color:#10aed1;
+
+}
+
+h1 {font-size:35px}
+
+a.one:link {color:red;}
+a.one:visited {color:red;}
+a.one:hover {color:#0081af;}
+
+* {box-sizing: border-box;
+	}
+
+
+
+
+
+
+
+
+/*box-sizing all*/
+/*cada elemento, con width:25%,50%,75% float:left*/
+
+header.encabezado{
+	
+	color:#e6af2e;
+	text-align:center;
+	
+}
+
+ul.menu{
+	width:100%;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color: black;
+
+	height:100%;
+
+}
+
+ul.menu li a {
+  display: block;
+  color: #22aed1;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align:center;
+  
+}
+
+ul.menu li a.active{
+	background-color: black;
+	color: #e6af2e;
+}
+
+ul.menu li a:hover {
+  background-color: black;
+  color: white;
+  border-bottom:2px;
+  border-bottom-color:#22aed1;
+}
+
+div.caja1{
+	width: 100%;
+    float: left;
+	margin-left: 0%;
+	padding: 1px 16px;
+	height:180px;
+	background-color:#000000;
+	text-align:center;
+
+}
+
+div.caja2{	width: 45%;
+    float: left;
+	margin-left: 15%;
+	padding: 1px 16px;
+	height: 300px;
+	background-color:#000000;
+	
+}
+
+div.complemento2{	
+	width: 40%;
+    float: left;
+	margin-left: 0%;
+	padding: 1px 16px;
+	height: 300px;
+	background-color:#000000;
+	text-align:center;}
+
+
+
+
+
+div.contacto{
+	text-align:center;
+	background-color:#000000;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+  div.caja1 {margin-left: 0;
+ 
+  text-align:center;
+  } 
+
+
+ ul.menu {
+    width: 100%;
+    height: auto;
+    position: relative;
+	text-align:center;
+  }
+  
+  ul.menu li a {
+
+    padding: 15px;
+  }
+  
+  
+ 
+ 
+ 
+  
+  div.caja1 {margin-left: 0;
+  width: 100%;
+  text-align:center;
+  }
+  
+  div.caja2 {margin-left: 0;
+  width: 60%; }
+  
+  div.complemento2{margin-left: 0;
+  width: 40%; 
+  text-align:center;}
+  
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+	ul.text li{
+	text-align:center;
+	}
+	
+	
+  ul.menu li a {
+    text-align: center;
+    float: none;
+  }	
+
+	div.caja2 {margin-left: 0;
+  width: 100%; }
+	
+  div.complemento2{margin-left: 0;
+  width: 100%; }
+	
+  }
+  
+  
+  
+
