@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-image: url("img/fondo 2.jpg");background-repeat: repeat-y;background-position: top;background-size: 100% 1500px;
+  background-attachment: scroll; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";margin-left: 0px;}
+#menu{width: 100%; background-image: linear-gradient(black,rgba(255,253,253,0.00) );text-align: center;position: relative;top: -10px;left: 0px; }
+#menu ul {list-style: none;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetic a, Arial, "sans-serif";margin-top: 0px;}
+#menu ul li{display:inline-block;}
+#menu ul li a{color: rgba(255,183,0,1.00);text-decoration: none;display: block;  padding:  30px 80px;}
+#menu ul li a:hover{background-image: linear-gradient(rgba(70,70,70,1.00),rgba(255,253,253,0.00));}
+h1{text-align: center;font-size: 50px;color: rgba(255,183,0,1.00)}
+h2{text-align: center;padding-top:  30px;color: rgba(40,40,40,1.00)}
+h3{text-align: center;color: rgba(255,183,0,1.00);}
+#caja1{width: 1200px; height: 100px; background-color:rgba(63,61,61,0.80);position: relative;margin-left: auto;margin-right: auto;padding: 50px;}
+.caja2{width: 1300px; height: 400px; background-image: linear-gradient(to left, rgba(255,183,0,1.00), rgba(250,130,24,1.00) );position: relative; margin-bottom: 50px;margin-left: auto;margin-right: auto;}
+#imagen1{width: 500px;height: 600px;position: absolute; top: 300px;left: 800px;}
+form{position: relative; left: 590px;top: 100px}
+input{margin-top: 20px;width: 300px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+padding: 10px; display: block;}
+textarea{margin-top: 20px;width: 300px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+padding: 10px; display: block;}
+#cajacontacto{width: 500px;height: 600px;background:  rgba(255,196,0,1.00);position: absolute; left:500px;margin-bottom: 50px;}
+#logo{width: 200px;height: 100px; position: absolute; left:10px; top: 0px; }
+#cajahistoria{width:700px; height: 500px;background-color:rgba(63,61,61,0.80);padding: 30px;position:relative;margin-left:auto;margin-right:auto;}
+p{color: rgba(255,255,255,1.00);}
+p1{color: rgba(203,203,203,1.00);font-size:25px;}
+#app1{width: 390px; height: 310px;position: absolute;right: 0px;top:70px;}
+#app2{width: 300px; height: 250px;position: absolute;right: 370px;top:100px;}
+.caja2 p{color: black;font-size:60px;margin-left:50px;margin-top: 0px;}
+.cajatexto{color: white;font-size:30px;  margin-left:50px;width:400px;position: relative; bottom:20px}
+#sitio1{width: 390px; height: 310px;position: absolute;right: 0px;top:60px;}
+#sitio2{width: 390px; height: 310px;position: absolute;right: 380px;top:60px;}
+#diseño1{width: 390px; height: 310px;position: absolute;right: 0px;top:60px;}
+#diseño2{width: 390px; height: 310px;position: absolute;right: 380px;top:60px;}
+#marketing1{width: 390px; height: 310px;position: absolute;right: 0px;top:60px;}
+#marketing2{width: 390px; height: 310px;position: absolute;right: 380px;top:60px;}
+.boton{ background:rgba(14,12,12,1.00) ;color: rgba(255,196,0,1.00); display:block; width: 150px;text-decoration:none;padding:10px;position:absolute;bottom:15px;left:350px;border-radius:7px;}
