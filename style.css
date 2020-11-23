@@ -20,7 +20,7 @@ textarea{margin-top: 20px;width: 300px;font-family: "Gill Sans", "Gill Sans MT",
 padding: 10px; display: block;}
 #cajacontacto{width: 500px;height: 600px;background:  rgba(255,196,0,1.00);position: absolute; left:500px;margin-bottom: 50px;}
 #logo{width: 200px;height: 100px; position: absolute; left:10px; top: 0px; }
-#cajahistoria{width:700px; height: 900px;background-color:rgba(63,61,61,0.80);padding: 30px;position:relative;margin-left:auto;margin-right:auto;}
+#cajahistoria{width:700px; height: 1100px;background-color:rgba(63,61,61,0.80);padding: 30px;position:relative;margin-left:auto;margin-right:auto;}
 p{color: rgba(255,255,255,1.00);font-size: 25px;}
 p1{color: rgba(203,203,203,1.00);font-size:25px;}
 #app1{width: 390px; height: 310px;position: absolute;right: 0px;top:70px;}
